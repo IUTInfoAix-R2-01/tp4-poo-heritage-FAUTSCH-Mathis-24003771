@@ -9,4 +9,9 @@ public class Mammal extends Animal {
     public String toString() {
         return "Mammal [" + super.toString() + "]";
     }
+
+    public static void main(String[] args) {
+        Mammal mammal = new Mammal("Rex");
+        System.out.println(mammal);
+    }
 }
