@@ -1,4 +1,4 @@
-package tp3exosyaip6;
+package tp3exosyaip6.ex6dot6;
 
 public class Dog extends Animal {
     public Dog(String name) {
