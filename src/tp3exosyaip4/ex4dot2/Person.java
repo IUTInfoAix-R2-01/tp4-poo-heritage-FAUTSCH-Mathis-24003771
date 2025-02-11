@@ -25,4 +25,12 @@ public class Person {
     public String toString() {
         return "Person [name=" + name + ", address=" + address + "]";
     }
+
+    public static void main(String[] args) {
+        Person person = new Person("John", "123 Main St");
+        System.out.println(person);
+
+        person.setAddress("789 Elm St");
+        System.out.println(person);
+    }
 }
