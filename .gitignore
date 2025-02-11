@@ -9,6 +9,7 @@
 # intelliJ project config files
 .idea
 /target/
+*.iml
 
 # Log file
 *.log
