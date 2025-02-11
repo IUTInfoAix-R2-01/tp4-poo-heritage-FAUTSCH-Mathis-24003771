@@ -1,6 +1,6 @@
 Ex. 5 : Que signifie "Redéfinir une méthode" ?
 
-Redéfinir une méthode signifie que l'on va redéfinir une méthode déjà existante dans une classe mère dans une classe fille. Cela permet de modifier le comportement de la méthode dans la classe fille.
+Redéfinir une méthode signifie que l'on va définir à nouveau une méthode déjà existante dans une classe mère de la classe actuelle. Cela permet de modifier le comportement de cette méthode dans la classe fille.
 
 
 Ex. 6 : Quelles méthodes de Velo et VeloElec sont redéfinies ?
