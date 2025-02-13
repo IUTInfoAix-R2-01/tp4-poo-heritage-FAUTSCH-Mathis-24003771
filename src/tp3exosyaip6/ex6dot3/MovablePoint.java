@@ -1,6 +1,6 @@
 package tp3exosyaip6.ex6dot3;
 
-public class MovablePoint {
+public class MovablePoint implements Movable {
     int x;
     int y;
     int xSpeed;
@@ -16,5 +16,25 @@ public class MovablePoint {
     @Override
     public String toString() {
         return "MovablePoint [" + "x=" + x + ", " + "y=" + y + ", " + "xSpeed=" + xSpeed + ", " + "ySpeed=" + ySpeed + "]";
+    }
+
+    @Override
+    public void moveUp() {
+        y -= ySpeed;
+    }
+
+    @Override
+    public void moveDown() {
+        y += ySpeed;
+    }
+
+    @Override
+    public void moveLeft() {
+        x -= xSpeed;
+    }
+
+    @Override
+    public void moveRight() {
+        x += xSpeed;
     }
 }
